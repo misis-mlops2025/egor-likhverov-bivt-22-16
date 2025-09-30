@@ -1,10 +1,10 @@
-def sum_three_numbers(a, b, c):
-    return a + b + c
+def sum_numbers(*args):
+    return sum(args)
 
 
 def main():
-    result = sum_three_numbers(5, 10, 52)
-    print(f"Сумма трёх чисел: {result}")
+    result = sum_numbers(7, 10, 52)
+    print(f"Сумма чисел: {result}")
 
 
 if __name__ == "__main__":
