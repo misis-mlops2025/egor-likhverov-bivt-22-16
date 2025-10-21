@@ -6,17 +6,17 @@
 
 Home work with datascience pipeline
 
-### Coverage
-Name                           Stmts   Miss  Cover
---------------------------------------------------
-homework2/__init__.py              0      0   100%
-homework2/config.py               77      6    92%
-homework2/data_generation.py      10      0   100%
-homework2/model_factory.py        13      1    92%
-homework2/pipeline.py             42      5    88%
-homework2/train.py                10      0   100%
---------------------------------------------------
-TOTAL                            152     12    92%
+### Test Coverage Report
+
+| File                          | Statements | Missed | Coverage |
+|-------------------------------|------------|--------|----------|
+| `homework2/__init__.py`       | 0          | 0      | 100%     |
+| `homework2/config.py`         | 77         | 6      | 92%      |
+| `homework2/data_generation.py`| 10         | 0      | 100%     |
+| `homework2/model_factory.py`  | 13         | 1      | 92%      |
+| `homework2/pipeline.py`       | 42         | 5      | 88%      |
+| `homework2/train.py`          | 10         | 0      | 100%     |
+| **TOTAL**                     | **152**    | **12** | **92%**  |
 
 ### PyLint
 Your code has been rated at 8.52/10
